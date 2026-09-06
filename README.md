@@ -162,6 +162,16 @@ Traditional luxury real estate websites often rely on static image galleries and
 
 ---
 
+## 🏛️ System Architecture
+
+```mermaid
+graph LR
+    Visitor["👤 Buyer"] --> Scroll["🖱️ Scroll Position Listener"]
+    Scroll --> FrameEngine["🎞️ 150-Frame 4K Camera Flythrough Engine"]
+    FrameEngine --> Viewport["🏛️ 3D Villa Interactive Walkthrough"]
+    Viewport --> Inquire["📩 VIP Booking & Inquiry Gateway"]
+```
+
 ## 🛠️ Tech Stack & Engineering Architecture
 
 | Category | Technology / Specification |
@@ -254,29 +264,16 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
-## 💖 Thank You for Visiting!
-
-> *"Thank you so much for taking the time to explore Solaria Estates!"* 🌟
-
-Taking your precious time to inspect this project, walk through the architectural features, and review my code means the world to me. Every single repository I build is an opportunity to learn, innovate, and push the boundaries of high-performance web engineering.
-
-- 🌟 **Enjoyed the experience?** Feel free to leave a **Star** on this repository—your support provides immense motivation to keep building exciting projects!
-- 📬 **Let's Connect:** I am always open to constructive feedback, technical discussions, and exciting engineering opportunities. Feel free to explore my other repositories or connect with me directly on [GitHub](https://github.com/SriniwasAwasthi).
-
-*Wishing you a wonderful day ahead, and thank you once again for stopping by!* ✨
-
 ---
 
+## 💖 Thank You for Visiting & Exploring 🏛️ SOLARIA ESTATES — Ultra-Luxury Mediterranean Real Estate Platform!
+
+> *"Thank you for taking the time to explore this project! Continuous learning, clean craftsmanship, and solving real-world challenges through elegant software are at the core of my developer journey."* 🚀
+
+* 🌟 **Enjoyed this project?** If you found this repository interesting or helpful, please consider giving it a **Star**!
+* 📬 **Let's Connect & Collaborate:** I am actively seeking engineering opportunities, impactful internships, and open-source collaborations. Feel free to connect via [GitHub](https://github.com/SriniwasAwasthi) or [Email](mailto:sriawasthi164@gmail.com).
+
+---
 <div align="center">
-  <sub>Crafted with passion for elite architectural engineering by <a href="https://github.com/SriniwasAwasthi">Sriniwas Awasthi</a>.</sub>
+  <sub>Designed & Crafted with Passion by <a href="https://github.com/SriniwasAwasthi"><strong>Sriniwas Awasthi</strong></a> • Continuous Learner & Software Engineer</sub>
 </div>
-
-## 🏛️ Flythrough Engine Architecture
-
-```mermaid
-graph LR
-    Visitor["👤 Buyer"] --> Scroll["🖱️ Scroll Position Listener"]
-    Scroll --> FrameEngine["🎞️ 150-Frame 4K Camera Flythrough Engine"]
-    FrameEngine --> Viewport["🏛️ 3D Villa Interactive Walkthrough"]
-    Viewport --> Inquire["📩 VIP Booking & Inquiry Gateway"]
-```
