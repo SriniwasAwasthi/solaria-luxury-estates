@@ -270,3 +270,13 @@ Taking your precious time to inspect this project, walk through the architectura
 <div align="center">
   <sub>Crafted with passion for elite architectural engineering by <a href="https://github.com/SriniwasAwasthi">Sriniwas Awasthi</a>.</sub>
 </div>
+
+## 🏛️ Flythrough Engine Architecture
+
+```mermaid
+graph LR
+    Visitor["👤 Buyer"] --> Scroll["🖱️ Scroll Position Listener"]
+    Scroll --> FrameEngine["🎞️ 150-Frame 4K Camera Flythrough Engine"]
+    FrameEngine --> Viewport["🏛️ 3D Villa Interactive Walkthrough"]
+    Viewport --> Inquire["📩 VIP Booking & Inquiry Gateway"]
+```
