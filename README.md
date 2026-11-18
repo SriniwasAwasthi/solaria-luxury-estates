@@ -78,16 +78,22 @@ Traditional luxury real estate websites often rely on static image carousels and
 
 To present the platform with the highest level of storytelling and technical depth, Solaria features a **120-second (2-minute) cinematic product showcase video** narrated by an autonomous AI voice agent.
 
-```
-▶️ Direct Video Link: public/assets/solaria_website_walkthrough_1080p.mp4
-📁 Secondary Mirror: public/assets/solaria_website_walkthrough_1080p.mp4
-💾 Portfolio Mirror: E:/W c One Drive/sriniwas-awasthi-portfolio-main/Website_Video/solaria_luxury_estates_showcase_1080p.mp4
-```
-
 <div align="center">
-  <video src="public/assets/solaria_website_walkthrough_1080p.mp4" controls width="100%" poster="public/assets/screenshots/13_video_walkthrough_modal.png" style="border-radius: 16px; border: 1px solid rgba(229,176,131,0.3); box-shadow: 0 20px 80px rgba(0,0,0,0.8);">
-    Your browser does not support the video tag. <a href="public/assets/solaria_website_walkthrough_1080p.mp4">Download the 1080p MP4 directly</a>.
+  <video src="https://github.com/SriniwasAwasthi/solaria-luxury-estates/raw/main/public/assets/solaria_website_walkthrough_1080p.mp4" controls width="100%" poster="https://raw.githubusercontent.com/SriniwasAwasthi/solaria-luxury-estates/main/public/assets/screenshots/13_video_walkthrough_modal.png" style="border-radius: 16px; border: 1px solid rgba(229,176,131,0.3); box-shadow: 0 20px 80px rgba(0,0,0,0.8);">
+    <a href="https://github.com/SriniwasAwasthi/solaria-luxury-estates/raw/main/public/assets/solaria_website_walkthrough_1080p.mp4">
+      <img src="https://raw.githubusercontent.com/SriniwasAwasthi/solaria-luxury-estates/main/public/assets/screenshots/13_video_walkthrough_modal.png" alt="Click to Watch Solaria Luxury Estates Walkthrough Video" width="100%" />
+    </a>
   </video>
+  <br />
+  <p>
+    <a href="https://github.com/SriniwasAwasthi/solaria-luxury-estates/raw/main/public/assets/solaria_website_walkthrough_1080p.mp4">
+      <img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F%20Watch%201080p%20Showcase%20Video-Click%20To%20Play-E5B083?style=for-the-badge&logoColor=black" alt="Play Video" />
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://github.com/SriniwasAwasthi/solaria-luxury-estates/raw/main/public/assets/solaria_website_walkthrough_1080p.mp4">
+      <img src="https://img.shields.io/badge/Download%20Full%20HD%20MP4-17.7%20MB-blue?style=for-the-badge" alt="Download MP4" />
+    </a>
+  </p>
 </div>
 
 ### Video Specifications
