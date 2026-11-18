@@ -79,21 +79,20 @@ Traditional luxury real estate websites often rely on static image carousels and
 To present the platform with the highest level of storytelling and technical depth, Solaria features a **120-second (2-minute) cinematic product showcase video** narrated by an autonomous AI voice agent.
 
 <div align="center">
-  <video src="https://github.com/SriniwasAwasthi/solaria-luxury-estates/raw/main/public/assets/solaria_website_walkthrough_1080p.mp4" controls width="100%" poster="https://raw.githubusercontent.com/SriniwasAwasthi/solaria-luxury-estates/main/public/assets/screenshots/13_video_walkthrough_modal.png" style="border-radius: 16px; border: 1px solid rgba(229,176,131,0.3); box-shadow: 0 20px 80px rgba(0,0,0,0.8);">
-    <a href="https://github.com/SriniwasAwasthi/solaria-luxury-estates/raw/main/public/assets/solaria_website_walkthrough_1080p.mp4">
-      <img src="https://raw.githubusercontent.com/SriniwasAwasthi/solaria-luxury-estates/main/public/assets/screenshots/13_video_walkthrough_modal.png" alt="Click to Watch Solaria Luxury Estates Walkthrough Video" width="100%" />
-    </a>
-  </video>
-  <br />
+  <a href="https://github.com/SriniwasAwasthi/solaria-luxury-estates/blob/main/public/assets/solaria_website_walkthrough_1080p.mp4" title="Click to Play Solaria 1080p Video Walkthrough">
+    <img src="public/assets/screenshots/solaria_walkthrough_animated_preview.gif" alt="Solaria Luxury Estates 1080p Cinematic Walkthrough Video" width="100%" style="border-radius: 16px; border: 1px solid rgba(229,176,131,0.3); box-shadow: 0 20px 80px rgba(0,0,0,0.8);" />
+  </a>
+  <br /><br />
   <p>
-    <a href="https://github.com/SriniwasAwasthi/solaria-luxury-estates/raw/main/public/assets/solaria_website_walkthrough_1080p.mp4">
-      <img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F%20Watch%201080p%20Showcase%20Video-Click%20To%20Play-E5B083?style=for-the-badge&logoColor=black" alt="Play Video" />
+    <a href="https://github.com/SriniwasAwasthi/solaria-luxury-estates/blob/main/public/assets/solaria_website_walkthrough_1080p.mp4">
+      <img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F%20CLICK%20TO%20PLAY%20VIDEO-GitHub%20Video%20Player-E5B083?style=for-the-badge&logoColor=black" alt="Click to Play Video" />
     </a>
     &nbsp;&nbsp;
     <a href="https://github.com/SriniwasAwasthi/solaria-luxury-estates/raw/main/public/assets/solaria_website_walkthrough_1080p.mp4">
-      <img src="https://img.shields.io/badge/Download%20Full%20HD%20MP4-17.7%20MB-blue?style=for-the-badge" alt="Download MP4" />
+      <img src="https://img.shields.io/badge/Direct%20Download%20MP4-17.7%20MB-blue?style=for-the-badge" alt="Download MP4" />
     </a>
   </p>
+  <p><i>👆 <b>Click the animated video above or the golden badge</b> to start playing the complete 120-second 1080p autonomous agent walkthrough with full audio, timeline scrubber, and full-screen controls.</i></p>
 </div>
 
 ### Video Specifications
