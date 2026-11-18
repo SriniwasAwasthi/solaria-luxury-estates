@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { BrandLogo } from './BrandLogo';
-import { ArrowRight, Menu, X } from 'lucide-react';
+import { ArrowRight, Menu, X, Film } from 'lucide-react';
 
-export const Header = ({ onOpenTourModal }) => {
+export const Header = ({ onOpenTourModal, onOpenVideoModal }) => {
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -15,10 +15,15 @@ export const Header = ({ onOpenTourModal }) => {
   }, []);
 
   const navItems = [
+    { label: 'About', href: '#about' },
     { label: 'Story', href: '#story' },
     { label: 'Estates', href: '#estates' },
-    { label: 'Lifestyle', href: '#lifestyle' },
-    { label: 'Views', href: '#views' },
+    { label: '24H Views', href: '#views' },
+    { label: 'Aviation & Marina', href: '#aviation-maritime' },
+    { label: 'Craftsmanship', href: '#craftsmanship' },
+    { label: 'Configurator', href: '#configurator' },
+    { label: 'Sovereign Wealth', href: '#sovereign-advisory' },
+    { label: 'Club Solaria', href: '#concierge-privileges' },
     { label: 'Inquire', href: '#inquire' },
   ];
 
@@ -84,7 +89,39 @@ export const Header = ({ onOpenTourModal }) => {
         </nav>
 
         {/* CTA Button */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+          {onOpenVideoModal && (
+            <button
+              onClick={onOpenVideoModal}
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '0.5rem',
+                backgroundColor: 'rgba(229, 176, 131, 0.12)',
+                color: '#e5b083',
+                border: '1px solid rgba(229, 176, 131, 0.35)',
+                padding: '0.65rem 1.3rem',
+                borderRadius: '9999px',
+                fontSize: '0.74rem',
+                fontWeight: 600,
+                letterSpacing: '0.1em',
+                textTransform: 'uppercase',
+                cursor: 'pointer',
+                transition: 'all 0.25s ease',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.backgroundColor = '#e5b083';
+                e.currentTarget.style.color = '#090c13';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.backgroundColor = 'rgba(229, 176, 131, 0.12)';
+                e.currentTarget.style.color = '#e5b083';
+              }}
+            >
+              <Film size={14} /> Watch Video Tour
+            </button>
+          )}
+
           <button
             onClick={onOpenTourModal}
             style={{

@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
+import { AboutSection } from './components/AboutSection';
 import { StorySection } from './components/StorySection';
 import { EstatesSection } from './components/EstatesSection';
-import { LifestyleSection } from './components/LifestyleSection';
 import { ViewsSection } from './components/ViewsSection';
+import { AviationMaritimeSection } from './components/AviationMaritimeSection';
+import { HauteCraftsmanshipSection } from './components/HauteCraftsmanshipSection';
+import { SanctuaryConfiguratorSection } from './components/SanctuaryConfiguratorSection';
+import { SovereignAdvisorySection } from './components/SovereignAdvisorySection';
+import { LifestyleSection } from './components/LifestyleSection';
+import { ConciergePrivilegesSection } from './components/ConciergePrivilegesSection';
 import { InquirySection } from './components/InquirySection';
 import { Footer } from './components/Footer';
 import { TourModal } from './components/TourModal';
 import { VillaWalkthroughModal } from './components/VillaWalkthroughModal';
+import { VideoModal } from './components/VideoModal';
 import { startBackgroundAssetPreload } from './utils/preloadAssets';
 
 export function App() {
@@ -17,6 +24,7 @@ export function App() {
   const [simulationEstate, setSimulationEstate] = useState(null);
   const [walkthroughModalOpen, setWalkthroughModalOpen] = useState(false);
   const [selectedEstateForWalkthrough, setSelectedEstateForWalkthrough] = useState(null);
+  const [videoModalOpen, setVideoModalOpen] = useState(false);
 
   useEffect(() => {
     startBackgroundAssetPreload();
@@ -38,21 +46,41 @@ export function App() {
 
   return (
     <div style={{ backgroundColor: '#090c13', minHeight: '100vh', color: '#ffffff' }}>
-      <Header onOpenTourModal={() => handleOpenTour()} />
+      <Header 
+        onOpenTourModal={() => handleOpenTour()} 
+        onOpenVideoModal={() => setVideoModalOpen(true)}
+      />
       
       <main>
         <HeroSection _onOpenTourModal={() => handleOpenTour()} />
+        <AboutSection onOpenTourModal={() => handleOpenTour()} />
         <StorySection />
         <EstatesSection
           onScheduleTour={(estate) => handleOpenTour(estate)}
           onSelectEstateForSimulation={handleSelectForSimulation}
           onOpenWalkthroughModal={handleOpenWalkthrough}
         />
-        <LifestyleSection />
         <ViewsSection 
           initialSelectedEstate={simulationEstate}
           onOpenWalkthroughModal={handleOpenWalkthrough}
         />
+        {/* Section A: Private Aviation & Superyacht Maritime Berth Matrix */}
+        <AviationMaritimeSection onOpenTourModal={() => handleOpenTour()} />
+        
+        {/* Section C: Haute Craftsmanship & Material Provenance Atelier */}
+        <HauteCraftsmanshipSection />
+
+        {/* Section D: Bespoke Sanctuary Specification Configurator */}
+        <SanctuaryConfiguratorSection onOpenTourModal={() => handleOpenTour()} />
+
+        {/* Section B: Sovereign Wealth, Tax & Cross-Border Advisory Suite */}
+        <SovereignAdvisorySection onOpenTourModal={() => handleOpenTour()} />
+
+        <LifestyleSection />
+
+        {/* Section E: Curated Concierge Privileges: Club Solaria */}
+        <ConciergePrivilegesSection onOpenTourModal={() => handleOpenTour()} />
+
         <InquirySection onOpenTourModal={() => handleOpenTour()} />
       </main>
 
@@ -68,6 +96,11 @@ export function App() {
         isOpen={walkthroughModalOpen}
         onClose={() => setWalkthroughModalOpen(false)}
         initialEstate={selectedEstateForWalkthrough}
+      />
+
+      <VideoModal
+        isOpen={videoModalOpen}
+        onClose={() => setVideoModalOpen(false)}
       />
     </div>
   );

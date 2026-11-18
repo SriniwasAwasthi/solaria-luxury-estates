@@ -1,13 +1,14 @@
 # 🏛️ SOLARIA ESTATES — Ultra-Luxury Mediterranean Real Estate Platform
 
-[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
+[![React](https://img.shields.io/badge/React-19.2.8-61DAFB?style=flat-square&logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-8.2.1-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.1-38BDF8?style=flat-square&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+[![Motion](https://img.shields.io/badge/Motion-13.1.0-FF4154?style=flat-square&logo=framer&logoColor=white)](https://motion.dev/)
 [![Performance](https://img.shields.io/badge/Performance-Zero--Latency-brightgreen?style=flat-square)](https://github.com/SriniwasAwasthi/solaria-luxury-estates)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)](LICENSE)
 
 > *"Where the Horizon Meets Timeless Elegance."*  
-> **Solaria Estates** is a premier digital flagship platform showcasing an exclusive collection of nine bespoke architectural cliffside sanctuaries and crown sky penthouses across the Mediterranean coastline.
+> **Solaria Estates** is a premier digital flagship platform showcasing an exclusive portfolio of nine bespoke architectural cliffside sanctuaries, private aviation berths, and crown sky penthouses across the Mediterranean coastline (Positano, Capri, Ravello, Monaco, Praiano, and Cap d'Antibes).
 
 ---
 
@@ -15,125 +16,254 @@
 1. [Overview & Vision](#-overview--vision)
 2. [Why Solaria Was Created](#-why-solaria-was-created)
 3. [Who It Is Designed For](#-who-it-is-designed-for)
-4. [Visual Tour & Page Showcase](#-visual-tour--page-showcase)
-   - [1. Hero Section & 150-Frame Scroller](#1-the-hero-page--150-frame-cinematic-scroller)
+4. [🎬 Cinematic Video Walkthrough & AI Agent Narration Showcase](#-cinematic-video-walkthrough--ai-agent-narration-showcase)
+   - [Video Specifications](#video-specifications)
+   - [Chapter-by-Chapter Synchronized Storyboard](#chapter-by-chapter-synchronized-storyboard)
+   - [Verbatim Voiceover Transcript](#verbatim-voiceover-transcript)
+5. [📸 Visual Tour & Complete Feature Showcase (13 Modules)](#-visual-tour--complete-feature-showcase-13-modules)
+   - [1. Hero Section & 150-Frame Cinematic Scroller](#1-the-hero-page--150-frame-cinematic-scroller)
    - [2. The Story & Architectural Heritage](#2-the-story--architectural-heritage)
-   - [3. The Collection (9 Bespoke Estates)](#3-the-collection-9-bespoke-residences)
-   - [4. 72-Stage 3D Walkthrough Simulator](#4-72-stage-3d-villa-walkthrough-simulator)
-   - [5. Interactive Horizon Experience](#5-interactive-horizon-day--night-experience)
+   - [3. The Collection (9 Bespoke Residences)](#3-the-collection-9-bespoke-residences)
+   - [4. 72-Stage 3D Villa Walkthrough Simulator](#4-72-stage-3d-villa-walkthrough-simulator)
+   - [5. Interactive Horizon Day & Night Experience](#5-interactive-horizon-day--night-experience)
    - [6. Mediterranean Luxury Lifestyle](#6-mediterranean-luxury-lifestyle)
    - [7. VIP Booking & Private Inquiries](#7-vip-booking--private-inquiries)
-5. [Zero-Latency Performance Engine](#-zero-latency-performance-engine)
-6. [How to Use & Navigate the Platform](#-how-to-use--navigate-the-platform)
-7. [Tech Stack & Engineering Architecture](#-tech-stack--engineering-architecture)
-8. [Installation & Getting Started](#-installation--getting-started)
-9. [License & Acknowledgments](#-license--acknowledgments)
+   - [8. Private Aviation & Superyacht Maritime Berth Matrix](#8-private-aviation--superyacht-maritime-berth-matrix)
+   - [9. Haute Craftsmanship & Material Provenance Atelier](#9-haute-craftsmanship--material-provenance-atelier)
+   - [10. Bespoke Sanctuary Specification Configurator & Live Valuation Engine](#10-bespoke-sanctuary-specification-configurator--live-valuation-engine)
+   - [11. Sovereign Wealth, Tax & Cross-Border Advisory Suite](#11-sovereign-wealth-tax--cross-border-advisory-suite)
+   - [12. Curated Concierge Privileges: Club Solaria](#12-curated-concierge-privileges-club-solaria)
+   - [13. Interactive Cinematic Video Walkthrough Modal](#13-interactive-cinematic-video-walkthrough-modal)
+6. [⚡ Zero-Latency Performance Engine](#-zero-latency-performance-engine)
+7. [🎮 How to Use & Navigate the Platform](#-how-to-use--navigate-the-platform)
+8. [🏛️ System Architecture (Mermaid Diagram)](#-system-architecture)
+9. [🛠️ Tech Stack & Engineering Specifications](#-tech-stack--engineering-specifications)
+10. [🚀 Installation & Getting Started](#-installation--getting-started)
+11. [📁 Repository Directory Structure](#-repository-directory-structure)
+12. [📄 License](#-license)
+13. [💖 Acknowledgments & Connect](#-acknowledgments--connect)
 
 ---
 
 ## 🌟 Overview & Vision
 
-**Solaria Estates** is an ultra-luxury digital real estate experience designed to bridge the gap between world-class architectural design and modern web technology. 
+**Solaria Estates** is an ultra-luxury digital real estate experience designed to bridge the gap between high-end architectural craftsmanship and modern web engineering. 
 
-By combining **cinema-grade 150-frame camera flythrough scrubbing**, **hardware-accelerated desynchronized GPU canvas rendering**, **72 bespoke 3D walkthrough room stages**, and **procedural Web Audio coastal soundscapes**, Solaria provides a tactile, immersive digital viewing experience for high-profile estates across Positano, Capri, Ravello, Praiano, Monaco, and Cap d'Antibes.
+By unifying **cinema-grade 150-frame camera flythrough scrubbing**, **hardware-accelerated desynchronized GPU canvas rendering**, **72 bespoke 3D walkthrough room stages**, **procedural Web Audio coastal soundscapes**, and an **autonomous AI voice agent showcase**, Solaria provides a tactile, immersive digital sanctuary for high-profile estates across Positano, Capri, Ravello, Praiano, Monaco, and Cap d'Antibes.
 
 ---
 
 ## 💡 Why Solaria Was Created
 
-Traditional luxury real estate websites often rely on static image galleries and slow, fragmented PDF brochures that fail to capture the true scale, natural lighting, and architectural elegance of coastal estates. 
+Traditional luxury real estate websites often rely on static image carousels and slow PDF brochures that fail to capture the true scale, natural lighting, and architectural elegance of coastal estates. 
 
-**Solaria was engineered to solve this by:**
-- **Bringing Architecture to Life:** Delivering a dynamic 150-frame aerial dive from high-altitude coastal skies directly into the living stone arches and multi-tiered waterfall pools.
-- **Providing True Spatial Understanding:** Providing a 72-stage architectural room tour covering every floor (Exterior Drone, Gated Motor Courts with Supercars, Sculpted Bronze Doors, Art Foyers, Gourmet Chef Kitchens, Cascading Pools, Primary Master Suites, and Rooftop Sky Observatories).
-- **Simulating Coastal Light:** Allowing prospective owners to witness how each residence interacts with Mediterranean sunlight across Day, Golden Hour Sunset, Twilight, and Starlit Midnight.
+**Solaria solves this by:**
+- **Bringing Architecture to Life:** Delivering a dynamic 150-frame aerial dive from high-altitude coastal clouds directly into living stone arches and multi-tiered waterfall pools.
+- **Providing True Spatial Understanding:** An 8-stage room tour per villa covering exterior drone angles, gated supercar motor courts, bronze double doors, art foyers, chef kitchens, cascading pools, primary suites, and rooftop sky observatories.
+- **Simulating Coastal Light:** Prospective owners can witness how residences interact with Mediterranean sunlight across Dawn, High Noon, Golden Hour Sunset, Twilight, and Midnight.
+- **Live Valuation Mathematics:** A real-time bespoke sanctuary configurator that calculates structural valuations as buyers customize lot sizes, helipads, private submarine docks, and security vaults.
 - **Guaranteeing Sub-Millisecond Speed:** Engineering a zero-latency engine ensuring that every button click, stage switch, and modal opens instantly (<1ms).
 
 ---
 
 ## 👑 Who It Is Designed For
 
-- **High-Net-Worth Individuals & Discerning Buyers:** Seeking exclusive, private coastal sanctuaries with private deep-water docks, helipads, and bespoke architecture.
-- **Luxury Real Estate Developers & Architectural Firms:** Looking for a modern benchmark for presenting multi-million-dollar developments.
-- **Design & Web Engineering Enthusiasts:** Exploring how high-framerate canvas animation, Web Audio API synthesis, and memory preloading combine to deliver zero-latency web apps.
+- **High-Net-Worth Individuals (HNWI) & Private Clients:** Seeking exclusive coastal sanctuaries with private deep-water docks, helipads, and bespoke architecture.
+- **Luxury Real Estate Developers & Architectural Firms:** Seeking a premier digital flagship to present multi-million-euro residential developments.
+- **Design & Web Engineering Enthusiasts:** Exploring how high-framerate canvas animation, Web Audio API synthesis, and memory preloading combine to deliver zero-latency web applications.
 
 ---
 
-## 📸 Visual Tour & Page Showcase
+## 🎬 Cinematic Video Walkthrough & AI Agent Narration Showcase
+
+To present the platform with the highest level of storytelling and technical depth, Solaria features a **120-second (2-minute) cinematic product showcase video** narrated by an autonomous AI voice agent.
+
+```
+▶️ Direct Video Link: public/assets/solaria_website_walkthrough_1080p.mp4
+📁 Secondary Mirror: public/assets/solaria_website_walkthrough_1080p.mp4
+💾 Portfolio Mirror: E:/W c One Drive/sriniwas-awasthi-portfolio-main/Website_Video/solaria_luxury_estates_showcase_1080p.mp4
+```
+
+<div align="center">
+  <video src="public/assets/solaria_website_walkthrough_1080p.mp4" controls width="100%" poster="public/assets/screenshots/13_video_walkthrough_modal.png" style="border-radius: 16px; border: 1px solid rgba(229,176,131,0.3); box-shadow: 0 20px 80px rgba(0,0,0,0.8);">
+    Your browser does not support the video tag. <a href="public/assets/solaria_website_walkthrough_1080p.mp4">Download the 1080p MP4 directly</a>.
+  </video>
+</div>
+
+### Video Specifications
+
+| Metric | Production Standard | Details |
+| :--- | :--- | :--- |
+| **Resolution** | 1920 × 1080 (Full HD, 16:9 widescreen) | Crisp, non-miniaturized text, cards, sliders, and villa graphics |
+| **Duration** | Exactly 120 Seconds (2:00 Minutes) | Paced at an executive, calm 135 words per minute |
+| **Viewport Scale** | Strict 100% Desktop Scale (Ratio 1.0) | Zero miniaturization; mobile and desktop LinkedIn feed optimized |
+| **Narration Engine** | Autonomous AI Voice Agent | Studio-mastered soundscape mixing, natural pauses, and luxury tonality |
+| **Encoding** | H.264 / AAC High Profile | 17.7 MB MP4 with embedded fast-start streaming metadata |
+
+### Chapter-by-Chapter Synchronized Storyboard
+
+```
+[0:00 - 0:20] ─── Chapter 1: Hero Sanctuary & Mediterranean Canvas View
+[0:20 - 0:42] ─── Chapter 2: The Private Estate Collection & Interactive Villa Walkthrough
+[0:42 - 1:02] ─── Chapter 3: 360° Coastal View Simulation & Dynamic Sun/Lighting Modes
+[1:02 - 1:22] ─── Chapter 4: Haute Craftsmanship & Aviation/Superyacht Maritime Matrix
+[1:22 - 1:44] ─── Chapter 5: The Bespoke Sanctuary Configurator (Live Valuation Engine)
+[1:44 - 2:00] ─── Chapter 6: Sovereign Wealth Advisory, Concierge Privileges & VIP Inquiries
+```
+
+- **Chapter 1 (0:00 - 0:20) — Hero Sanctuary & Mediterranean Canvas View:**  
+  The camera glides into the living Mediterranean cliffside. Desynchronized GPU canvas renders 150 frames with hardware precision as the ambient ocean wave soundscape swells.
+- **Chapter 2 (0:20 - 0:42) — The Private Estate Collection & Interactive Villa Walkthrough:**  
+  Navigation smoothly shifts to the 9 bespoke residences. Clicking *Live Simulation* opens the 8-stage room tour, seamlessly scrubbing through the motor court, grand atrium, chef's kitchen, and rooftop infinity pool.
+- **Chapter 3 (0:42 - 1:02) — 360° Coastal View Simulation & Dynamic Sun/Lighting Modes:**  
+  Real-time day/night lighting toggles dynamically shift the atmosphere across Dawn, High Noon, Golden Hour Sunset, Twilight, and Midnight.
+- **Chapter 4 (1:02 - 1:22) — Haute Craftsmanship & Aviation/Superyacht Maritime Matrix:**  
+  Showcases private deep-water berths, radar coordinates for superyachts, helipads, and hand-carved Roman travertine and honed Carrara marble provenance.
+- **Chapter 5 (1:22 - 1:44) — The Bespoke Sanctuary Configurator (Live Valuation Engine):**  
+  Interactive reactive sliders allow buyers to configure square meters, subterranean wine vaults, and private submarine berths with live mathematical price updates.
+- **Chapter 6 (1:44 - 2:00) — Sovereign Wealth Advisory, Concierge Privileges & VIP Inquiries:**  
+  Private consultation form, cross-border tax advisory highlights, and Club Solaria VIP concierge privileges complete the tour.
+
+### Verbatim Voiceover Transcript
+
+> **[0:00 - 0:20]**  
+> *"Welcome to Solaria Luxury Estates—an architectural masterpiece where the Mediterranean horizon meets timeless digital elegance. Engineered with React 19 and a desynchronized GPU canvas pipeline, every scroll delivers a fluid 150-frame aerial dive into cliffside sanctuaries carved into the living rock."*
+>
+> **[0:20 - 0:42]**  
+> *"Explore our private collection of nine bespoke residences across Positano, Capri, and Monaco. With a single click, launch the 72-stage interactive walkthrough—gliding effortlessly from gated supercar motor courts through vaulted bronze foyers into panoramic cliffside infinity pools."*
+>
+> **[0:42 - 1:02]**  
+> *"Experience light as an architectural element. Our dynamic horizon simulation lets prospective owners preview their sanctuary across five distinct lighting phases—from the soft mist of dawn to the golden hour sunset and starlit midnight."*
+>
+> **[1:02 - 1:22]**  
+> *"Crafted with uncompromising precision. From our private aviation and superyacht maritime matrix with dedicated deep-water berths, to hand-selected Carrara marble and aged Tuscan bronze, every detail reflects sovereign prestige."*
+>
+> **[1:22 - 1:44]**  
+> *"Design your ultimate legacy with the Bespoke Sanctuary Configurator. Adjust residential footprint, add private helipads or subterranean vaults, and watch our live valuation engine calculate real-time pricing with mathematical fidelity."*
+>
+> **[1:44 - 2:00]**  
+> *"Supported by our sovereign cross-border advisory suite and Club Solaria concierge privileges, private ownership begins here. Schedule your VIP walkthrough today. Solaria: The pinnacle of coastal living."*
+
+---
+
+## 📸 Visual Tour & Complete Feature Showcase (13 Modules)
 
 ### 1. The Hero Page & 150-Frame Cinematic Scroller
 
 ![Solaria Hero Page](public/assets/screenshots/01_hero_section.png)
 
 * **Cinema-Grade Camera Flight:** Scrubbing through the page initiates an ultra-fluid 150-frame camera dive into the living Mediterranean cliffside villa.
-* **Desynchronized GPU Canvas Engine:** Runs on a dedicated HTML5 2D desynchronized canvas pipeline for zero-latency 60–120 FPS rendering.
-* **Web Audio Procedural Soundscape:** Features an organic ambient ocean wave synthesizer that procedurally mimics coastal tides in real time without external audio files.
+* **Desynchronized GPU Canvas:** Rendered directly onto an HTML5 canvas using hardware acceleration to eliminate screen tearing and frame drops.
+* **Ambient Soundscape:** Integrated procedural audio creates gentle Mediterranean wave acoustics synchronized with scroll depth.
 
 ---
 
 ### 2. The Story & Architectural Heritage
 
-![The Story Section](public/assets/screenshots/02_story_section.png)
+![Architectural Heritage](public/assets/screenshots/02_story_section.png)
 
-* **Living Cliffside Philosophy:** Highlights the structural union of ancient Amalfi limestone with cantilevered glass, warm Italian walnut, and private superyacht harbors.
-* **Curated Key Metrics:** Spotlights the collection's 9 bespoke estates, 180m–320m coastal elevations, and private deep-water marine access.
+* **Architectural Narrative:** Explores the organic integration of Roman travertine, forged bronze, and floor-to-ceiling structural glass.
+* **Bespoke Typography:** Curated Cinzel and Cormorant Garamond typography set against an obsidian night palette (`#090c13`).
 
 ---
 
 ### 3. The Collection (9 Bespoke Residences)
 
-![The Collection Section](public/assets/screenshots/03_estates_collection.png)
+![Estates Collection](public/assets/screenshots/03_estates_collection.png)
 
-* **Interactive Category Filtering:** Instantly filter between **All (9)**, **Cliffside Villas (5)**, and **Sky Penthouses (4)**.
-* **Full Architectural Specs:** Comprehensive property data cards displaying bedrooms, bathrooms, square footage, private supercars, and multi-floor wing layouts.
-* **Direct Action Triggers:** One-click launch for the 8-Stage 3D Walkthrough Simulator and VIP Tour Booking.
+* **Interactive Category Filtering:** Instantly switch between **All**, **Cliffside Villas**, and **Sky Penthouses** with zero latency.
+* **Live Estate Cards:** Each residence displays location, living area ($m^2$), pricing in Euros, and direct simulation triggers.
 
 ---
 
 ### 4. 72-Stage 3D Villa Walkthrough Simulator
 
-![3D Villa Walkthrough Simulator](public/assets/screenshots/04_walkthrough_simulator.png)
+![Walkthrough Simulator](public/assets/screenshots/04_walkthrough_simulator.png)
 
-* **Zero-Repetition Visual Matrix:** Every single residence features 8 dedicated high-resolution photographs reflecting its unique architectural geometry:
-  1. `Stage 01`: High-Altitude 4K Drone Orbit
-  2. `Stage 02`: Private Gated Motor Court & Supercars (Ferrari SF90, Rolls-Royce Cullinan, Bugatti Chiron)
-  3. `Stage 03`: 12-Foot Sculpted Solid Bronze & Oak Doors Opening
-  4. `Stage 04`: Double-Height Art Foyer & Italian Marble Staircase
-  5. `Stage 05`: Calacatta Gold Chef's Gourmet Kitchen & Glass Wine Vault
-  6. `Stage 06`: Cascading Heated Saltwater Infinity Falls Pool
-  7. `Stage 07`: 1st Floor Master Suite Sanctuary with Oceanfront Balcony
-  8. `Stage 08`: 2nd Floor Rooftop Sky Lounge & 360° Observatory
-* **Ergonomic Controls:** Horizontally scrollable stage track with chevron buttons, active stage auto-centering, keyboard arrow controls (`ArrowLeft` / `ArrowRight`), and 360° drag-to-pan exploration.
+* **8 Interactive Room Nodes:** Navigate across Exterior Drone, Motor Court, Double Bronze Doors, Living Gallery, Chef Kitchen, Pool Terrace, Master Suite, and Rooftop Lounge.
+* **Keyboard Navigation:** Full arrow-key (`←` `→`) support and quick thumbnail jump navigation.
+* **Dynamic Lighting Integration:** Automatically inherits the active time-of-day illumination selected in the horizon engine.
 
 ---
 
 ### 5. Interactive Horizon Day & Night Experience
 
-![Views & Horizon Section](public/assets/screenshots/05_views_horizon_section.png)
+![Horizon Lighting](public/assets/screenshots/05_views_horizon_section.png)
 
-* **Live Sunlight Simulation:** Experience how each estate transforms throughout the day:
-  - **Dawn Horizon (6:00 AM):** Soft rose morning mist and crystal clear waters.
-  - **High Noon (12:00 PM):** Radiant Mediterranean sun highlighting limestone masonry.
-  - **Golden Hour (6:30 PM):** Warm amber glow and glowing interior chandeliers.
-  - **Twilight Dusk (8:15 PM):** Deep violet skies and illuminated swimming pool edges.
-  - **Starlight Midnight (11:45 PM):** Starry night skies and superyacht anchor lights.
-* **Interactive Toggles:** Real-time architectural lighting controls, coastal mist layers, and 24-hour auto-cycle playback.
+* **Five Dynamic Lighting Modes:** Toggle between Dawn, High Noon, Golden Hour Sunset, Twilight, and Midnight.
+* **Atmospheric State Synchronizer:** Adjusts ambient canvas saturation, contrast, and color balance across all villa walkthroughs.
 
 ---
 
 ### 6. Mediterranean Luxury Lifestyle
 
-![Lifestyle Section](public/assets/screenshots/06_lifestyle_section.png)
+![Luxury Lifestyle](public/assets/screenshots/06_lifestyle_section.png)
 
-* **Bespoke Living Amenities:** Showcases private deep-water superyacht slips, rooftop helipads, Michelin-caliber sommelier cellars, and private wellness hydrotherapy spas.
+* **Exclusive Lifestyle Amenities:** Private deep-water yacht berths, Michelin-starred private culinary chefs, and private aviation helipads.
+* **Concierge Privileges:** Highlights the elite bespoke privileges offered exclusively to Solaria property owners.
 
 ---
 
 ### 7. VIP Booking & Private Inquiries
 
-![Inquiry Section](public/assets/screenshots/07_inquiry_section.png)
+![VIP Inquiries](public/assets/screenshots/07_inquiry_section.png)
 
-* **Confidential Consultation Portal:** Dedicated booking form for prospective owners and architectural collectors to schedule private helicopter tours, yacht viewings, and confidential acquisitions.
+* **Discrete Consultation Scheduling:** High-net-worth prospective buyers can schedule confidential property visits and private jet arrivals.
+* **Real-Time Client-Side Validation:** Ensures responsive, zero-error interaction with customized inquiry confirmation dialogs.
+
+---
+
+### 8. Private Aviation & Superyacht Maritime Berth Matrix
+
+![Aviation & Maritime Matrix](public/assets/screenshots/08_aviation_maritime_matrix.png)
+
+* **Telemetric Radar Coordinates:** Displays exact latitude/longitude coordinates, runway classifications, and superyacht draught allowances.
+* **Deep-Water Berth Specifications:** Direct navigation for vessels up to 90 meters with private tenders and shore-power integration.
+
+---
+
+### 9. Haute Craftsmanship & Material Provenance Atelier
+
+![Haute Craftsmanship Atelier](public/assets/screenshots/09_haute_craftsmanship.png)
+
+* **Material Provenance:** Detailed exploration of quarried Roman travertine, hand-brushed Florentine bronze, and marine-grade brushed titanium.
+* **Interactive Material Inspect:** Micro-interactions displaying texture grain, durability rating, and acoustic insulation properties.
+
+---
+
+### 10. Bespoke Sanctuary Specification Configurator & Live Valuation Engine
+
+![Bespoke Sanctuary Configurator](public/assets/screenshots/10_bespoke_configurator.png)
+
+* **Real-Time Mathematical Valuation:** Dynamic price calculation updates immediately as buyers customize square meters, guest villas, and amenities.
+* **Add-On Specifications:** Toggle subterranean wine galleries, private submarine docks, biometric panic vaults, and solar-glass arrays.
+
+---
+
+### 11. Sovereign Wealth, Tax & Cross-Border Advisory Suite
+
+![Sovereign Advisory Suite](public/assets/screenshots/11_sovereign_advisory.png)
+
+* **Jurisdictional Strategies:** Legal and tax governance guidance across Monaco, Italy, France, and Switzerland.
+* **Citizenship & Residency Alignment:** Highlighting Golden Visa criteria, bilateral treaties, and asset shielding structures.
+
+---
+
+### 12. Curated Concierge Privileges: Club Solaria
+
+![Club Solaria Concierge](public/assets/screenshots/12_club_solaria_concierge.png)
+
+* **Club Solaria Privileges:** 24/7 dedicated private sommelier, diplomatic-grade executive security details, and private jet charter fleet.
+* **Private Keycard Access:** Bespoke physical NFC and biometric credentialing for property owners.
+
+---
+
+### 13. Interactive Cinematic Video Walkthrough Modal
+
+![Video Walkthrough Modal](public/assets/screenshots/13_video_walkthrough_modal.png)
+
+* **Embedded In-App Player:** Launch the 1080p autonomous agent walkthrough directly within the web app with a single click.
+* **Direct MP4 Download:** Integrated header button allows clients to download the complete presentation video for offline review.
 
 ---
 
@@ -154,35 +284,95 @@ Traditional luxury real estate websites often rely on static image galleries and
 ## 🎮 How to Use & Navigate the Platform
 
 1. **Experience the Flythrough:** Scroll down smoothly from the top of the page to fly from high-altitude coastal clouds into the villa's illuminated arches.
-2. **Browse the Estates:** Navigate to `#estates` to filter residences by **All**, **Cliffside Villas**, or **Sky Penthouses**.
-3. **Launch the 3D Room Walkthrough:** Click **"Live Simulation"** or **"Launch 3D Drone & Room Walkthrough"** on any estate card to open the 8-stage interactive simulator.
-4. **Tour the Rooms:** Click any stage node (01 to 08), use the `<` `>` chevrons, or press the **Left/Right Arrow keys** on your keyboard to walk from the motor court into the rooftop sky lounge.
-5. **Adjust Time of Day:** Scroll to `#views` to toggle between Dawn, High Noon, Golden Hour, Twilight, and Midnight.
-6. **Book a Private Tour:** Click **"BOOK A TOUR"** in the top navigation bar to open the VIP consultation modal.
+2. **Watch the Video Walkthrough:** Click **"Cinematic Walkthrough"** in the navigation header to launch the full 120-second video overview.
+3. **Browse the Estates:** Navigate to `#estates` to filter residences by **All**, **Cliffside Villas**, or **Sky Penthouses**.
+4. **Launch the 3D Room Walkthrough:** Click **"Live Simulation"** or **"Launch 3D Drone & Room Walkthrough"** on any estate card to open the 8-stage interactive simulator.
+5. **Tour the Rooms:** Click any stage node (01 to 08), use the `<` `>` chevrons, or press the **Left/Right Arrow keys** on your keyboard.
+6. **Adjust Time of Day:** Scroll to `#views` to toggle between Dawn, High Noon, Golden Hour, Twilight, and Midnight.
+7. **Configure Custom Sanctuaries:** Scroll to `#configurator` to test the live valuation engine with custom architectural options.
+8. **Book a Private Tour:** Click **"BOOK A TOUR"** in the top navigation bar to open the VIP consultation modal.
 
 ---
 
 ## 🏛️ System Architecture
 
 ```mermaid
-graph LR
-    Visitor["👤 Buyer"] --> Scroll["🖱️ Scroll Position Listener"]
-    Scroll --> FrameEngine["🎞️ 150-Frame 4K Camera Flythrough Engine"]
-    FrameEngine --> Viewport["🏛️ 3D Villa Interactive Walkthrough"]
-    Viewport --> Inquire["📩 VIP Booking & Inquiry Gateway"]
+flowchart TD
+    subgraph ClientTier ["1. User Interaction & Client Presentation Tier"]
+        Visitor["👤 High-Net-Worth Buyer / Visitor"]
+        NavHeader["🧭 Glassmorphic Header & Navigation Anchors"]
+        ScrollTrigger["🖱️ Precision Scroll Depth Tracker"]
+        ModalTriggers["⚡ Modal Orchestrator (Tour / Walkthrough / Video)"]
+        Visitor --> NavHeader
+        Visitor --> ScrollTrigger
+        Visitor --> ModalTriggers
+    end
+
+    subgraph CoreEngines ["2. Core Rendering & Performance Engines"]
+        PreloadWorker["📦 Background RAM Preloader (preloadAssets.js)"]
+        GPUCanvas["🎨 Desynchronized GPU 2D Canvas (HeroCanvas.jsx)"]
+        FrameScrubber["🎞️ 150-Frame 4K Flythrough Interpolator"]
+        SoundEngine["🔊 Web Audio API Procedural Wave Acoustics Synthesizer"]
+        
+        ScrollTrigger --> FrameScrubber
+        FrameScrubber --> GPUCanvas
+        ScrollTrigger --> SoundEngine
+        PreloadWorker -.->|Preloads in RAM| FrameScrubber
+    end
+
+    subgraph DomainModules ["3. Architectural & Domain Feature Modules"]
+        HeroSec["🏰 Hero Section & Cloud Flythrough Viewport"]
+        StorySec["📜 Architectural Heritage & Philosophy"]
+        EstatesSec["🏛️ 9 Bespoke Sanctuaries Collection (Filtered Grid)"]
+        HorizonSec["🌅 360° Horizon Engine (Dawn / Noon / Sunset / Twilight / Midnight)"]
+        AviationSec["✈️ Private Aviation & Superyacht Maritime Matrix"]
+        CraftSec["💎 Haute Craftsmanship & Atelier Material Provenance"]
+        ConfigSec["📐 Bespoke Sanctuary Configurator (Live Valuation Engine)"]
+        SovereignSec["⚖️ Sovereign Wealth, Tax & Cross-Border Advisory"]
+        LifestyleSec["🍸 Mediterranean Luxury Lifestyle & Club Solaria"]
+        InquirySec["📩 VIP Discrete Booking & Private Tour Gateway"]
+        
+        GPUCanvas --> HeroSec
+        HeroSec --> StorySec
+        StorySec --> EstatesSec
+        EstatesSec --> HorizonSec
+        HorizonSec --> AviationSec
+        AviationSec --> CraftSec
+        CraftSec --> ConfigSec
+        ConfigSec --> SovereignSec
+        SovereignSec --> LifestyleSec
+        LifestyleSec --> InquirySec
+    end
+
+    subgraph InteractiveModals ["4. Interactive Modals & Media Playback"]
+        RoomModal["🚪 72-Stage 3D Room Walkthrough Modal (Arrow Keys / Chevrons)"]
+        TourModal["📅 VIP Confidential Visit & Helicopter Arrival Modal"]
+        VideoModal["🎬 1080p Autonomous Agent Walkthrough Video Player"]
+        
+        ModalTriggers --> RoomModal
+        ModalTriggers --> TourModal
+        ModalTriggers --> VideoModal
+        EstatesSec -.->|Live Simulation| RoomModal
+        InquirySec -.->|Schedule Visit| TourModal
+        NavHeader -.->|Watch Showcase| VideoModal
+    end
 ```
 
-## 🛠️ Tech Stack & Engineering Architecture
+---
 
-| Category | Technology / Specification |
-| :--- | :--- |
-| **Frontend Framework** | React 18.3 (Hooks, Context, Memoization) |
-| **Build Tool & Bundler** | Vite 8.2 (Rolldown engine, Terser minification) |
-| **Styling Framework** | Tailwind CSS 3.4 + Custom Luxury Design System Tokens |
-| **Graphics Engine** | HTML5 Canvas 2D (Desynchronized pipeline) + Sharp |
-| **Audio Engine** | Web Audio API (Procedural Wave Acoustics Synthesizer) |
-| **Icons** | Lucide React |
-| **Typography** | Cinzel, Cormorant Garamond, Plus Jakarta Sans |
+## 🛠️ Tech Stack & Engineering Specifications
+
+| Category | Technology / Specification | Purpose |
+| :--- | :--- | :--- |
+| **Frontend Framework** | **React 19.2.8** | Client-side reactive UI state, hooks, and component lifecycle |
+| **Animation Engine** | **Motion 13.1.0 (Framer Motion)** | Smooth layout transitions, modal reveals, and hover springs |
+| **Build Tool & Bundler** | **Vite 8.2.1** | Rolldown engine, Terser minification, sub-second HMR |
+| **Styling Framework** | **Tailwind CSS 3.4.1** | Utility-first obsidian & gold luxury token palette |
+| **Graphics Engine** | **HTML5 Canvas 2D (Desynchronized)** | Hardware-accelerated 150-frame GPU flight rendering |
+| **Audio Engine** | **Web Audio API** | Procedural Mediterranean ocean swells and acoustic filters |
+| **Icons** | **Lucide React 1.32.0** | Clean, minimalist architectural vector iconography |
+| **Image Processing** | **Sharp 0.35.3** | High-fidelity image scaling and asset optimization |
+| **Linter** | **Oxlint 1.75.0** | High-speed Rust-based JavaScript and JSX linting |
 
 ---
 
@@ -215,6 +405,11 @@ graph LR
    npm run build
    ```
 
+5. **Preview production build locally:**
+   ```bash
+   npm run preview
+   ```
+
 ---
 
 ## 📁 Repository Directory Structure
@@ -224,36 +419,59 @@ solaria-luxury-estates/
 ├── public/
 │   └── assets/
 │       ├── hero_frames/         # 150 Clean 4K flythrough frames (frame_000.jpg - frame_149.jpg)
-│       ├── screenshots/         # High-resolution documentation screenshots
-│       └── villas/              # 72 Unique 3D walkthrough stage photographs
+│       ├── screenshots/         # 13 High-resolution documentation screenshots (1080p)
+│       │   ├── 01_hero_section.png
+│       │   ├── 02_story_section.png
+│       │   ├── 03_estates_collection.png
+│       │   ├── 04_walkthrough_simulator.png
+│       │   ├── 05_views_horizon_section.png
+│       │   ├── 06_lifestyle_section.png
+│       │   ├── 07_inquiry_section.png
+│       │   ├── 08_aviation_maritime_matrix.png
+│       │   ├── 09_haute_craftsmanship.png
+│       │   ├── 10_bespoke_configurator.png
+│       │   ├── 11_sovereign_advisory.png
+│       │   ├── 12_club_solaria_concierge.png
+│       │   └── 13_video_walkthrough_modal.png
+│       ├── villas/              # 72 Unique 3D walkthrough stage photographs
+│       ├── solaria_luxury_estates_showcase_1080p.mp4 # 120s 1080p Autonomous Voice Walkthrough
+│       └── solaria_website_walkthrough_1080p.mp4      # 1080p Screencast Walkthrough
 ├── src/
 │   ├── components/
-│   │   ├── BrandLogo.jsx        # Solaria brand emblem & watermark
-│   │   ├── EstatesSection.jsx   # 9 Estates collection & filter grid
-│   │   ├── Footer.jsx           # Platform footer & international legal disclosures
-│   │   ├── Header.jsx           # Glassmorphic header & VIP booking navigation
-│   │   ├── HeroCanvas.jsx       # 150-Frame desynchronized GPU canvas scroller
-│   │   ├── HeroSection.jsx      # Multi-stage narrative scroll viewport
-│   │   ├── InquirySection.jsx   # VIP tour booking & private consultation form
-│   │   ├── LifestyleSection.jsx # Mediterranean luxury lifestyle amenities
-│   │   ├── StorySection.jsx     # Architectural philosophy & heritage narrative
-│   │   ├── TourModal.jsx        # Private tour booking modal
-│   │   ├── ViewsSection.jsx     # 3D Horizon Simulator & Day/Night lighting engine
-│   │   └── VillaWalkthroughModal.jsx # 8-Stage Interactive Room & Drone Simulator
+│   │   ├── AboutSection.jsx                 # Mediterranean architectural ethos
+│   │   ├── AviationMaritimeSection.jsx      # Superyacht berth & private aviation matrix
+│   │   ├── BrandLogo.jsx                    # Solaria brand emblem & watermark
+│   │   ├── ConciergePrivilegesSection.jsx   # Curated Club Solaria concierge privileges
+│   │   ├── EstateModal.jsx                  # Individual estate deep-dive modal
+│   │   ├── EstatesSection.jsx               # 9 Estates collection & filter grid
+│   │   ├── Footer.jsx                       # Platform footer & international legal disclosures
+│   │   ├── HauteCraftsmanshipSection.jsx    # Material provenance & artisan atelier
+│   │   ├── Header.jsx                       # Glassmorphic header & VIP booking navigation
+│   │   ├── HeroCanvas.jsx                   # 150-Frame desynchronized GPU canvas scroller
+│   │   ├── HeroSection.jsx                  # Multi-stage narrative scroll viewport
+│   │   ├── InquirySection.jsx               # VIP tour booking & private consultation form
+│   │   ├── LifestyleSection.jsx             # Mediterranean luxury lifestyle amenities
+│   │   ├── SanctuaryConfiguratorSection.jsx # Bespoke Configurator & Live Valuation Engine
+│   │   ├── SovereignAdvisorySection.jsx     # Tax & cross-border wealth advisory suite
+│   │   ├── StorySection.jsx                 # Architectural philosophy & heritage narrative
+│   │   ├── TourModal.jsx                    # Private VIP tour booking modal
+│   │   ├── VideoModal.jsx                   # Embedded 1080p video walkthrough player
+│   │   ├── ViewsSection.jsx                 # 3D Horizon Simulator & Day/Night lighting engine
+│   │   └── VillaWalkthroughModal.jsx        # 8-Stage Interactive Room & Drone Simulator
 │   ├── data/
-│   │   └── estates.js           # 9 Estates dataset & 72 walkthrough stage specifications
+│   │   └── estates.js                       # 9 Estates dataset & 72 walkthrough stage specifications
 │   ├── utils/
-│   │   └── preloadAssets.js     # Background asset preloading engine
-│   ├── App.jsx                  # Main application orchestrator
-│   ├── index.css                # Global luxury design system & typography tokens
-│   └── main.jsx                 # Application entrypoint
+│   │   └── preloadAssets.js                 # Background RAM asset preloading engine
+│   ├── App.jsx                              # Main application orchestrator
+│   ├── index.css                            # Global luxury design system & typography tokens
+│   └── main.jsx                             # Application entrypoint
 ├── scripts/
-│   ├── generate_clean_hero_frames.js # 150 4K Hero frame generation script
-│   └── generate_all_distinct_villa_images.js # 72 distinct villa stage generator
-├── index.html                   # HTML entrypoint with preconnect & preload hints
-├── vite.config.js               # Production bundling & code splitting configuration
-├── package.json                 # Project dependencies & build scripts
-└── README.md                    # Comprehensive repository documentation
+│   ├── generate_clean_hero_frames.js        # 150 4K Hero frame generation script
+│   └── generate_all_distinct_villa_images.js# 72 distinct villa stage generator
+├── index.html                               # HTML entrypoint with preconnect & preload hints
+├── vite.config.js                           # Production bundling & code splitting configuration
+├── package.json                             # Project dependencies & build scripts
+└── README.md                                # Comprehensive repository documentation
 ```
 
 ---
@@ -264,15 +482,13 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
----
+## 💖 Acknowledgments & Connect
 
-## 💖 Thank You for Visiting & Exploring 🏛️ SOLARIA ESTATES — Ultra-Luxury Mediterranean Real Estate Platform!
-
-> *"Thank you for taking the time to explore this project! Continuous learning, clean craftsmanship, and solving real-world challenges through elegant software are at the core of my developer journey."* 🚀
+> *"Thank you for taking the time to explore Solaria Luxury Estates! Continuous learning, clean craftsmanship, and solving real-world challenges through elegant software are at the core of my developer journey."* 🚀
 
 * 🌟 **Enjoyed this project?** If you found this repository interesting or helpful, please consider giving it a **Star**!
-* 📬 **Let's Connect & Collaborate:** I am actively seeking engineering opportunities, impactful internships, and open-source collaborations. Feel free to connect via [GitHub](https://github.com/SriniwasAwasthi) or [Email](mailto:sriawasthi164@gmail.com)
-  * 🌐 **LinkedIn:** [https://www.linkedin.com/in/sriniwas-awasthi/](https://www.linkedin.com/in/sriniwas-awasthi/).
+* 📬 **Let's Connect & Collaborate:** I am actively seeking engineering opportunities, impactful internships, and open-source collaborations. Feel free to connect via [GitHub](https://github.com/SriniwasAwasthi) or [Email](mailto:sriawasthi164@gmail.com).
+  * 🌐 **LinkedIn:** [https://www.linkedin.com/in/sriniwas-awasthi/](https://www.linkedin.com/in/sriniwas-awasthi/)
 
 ---
 <div align="center">
